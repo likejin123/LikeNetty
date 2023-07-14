@@ -1,4 +1,4 @@
-package com.likejin.nioserverclient;
+package com.likejin.nio.nioserverclient;
 
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
