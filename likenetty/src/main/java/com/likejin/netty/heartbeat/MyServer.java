@@ -58,7 +58,7 @@ public class MyServer {
                             pipeline.addLast(new MySeverHandler());
                         }
                     });
-            System.out.println("netty 服务器启动");
+            System.out.println("nettyserver 服务器启动");
 
             ChannelFuture channelFuture = bootstrap.bind(7000).sync();
             //监听channel的关闭时间
